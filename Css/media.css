@@ -10,6 +10,7 @@
 /* ----MAIN HEADER---- */
 body {
     background-color: whitesmoke;
+    margin: 0;
 }
 
 .container-fluid {
