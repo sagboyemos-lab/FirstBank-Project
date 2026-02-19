@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - First Bank of Nigeria</title>
+    <link rel="stylesheet" href="Css/index.css">
+    <link rel="icon" href="multimedia/home/First-Bank-Logo_Symbol.svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <!-- --MAIN HEADER-- -->
+        <div class="main-header">
+            <div class="header">
+                <ul class="header-1">
+                    <li><a class="active" href="./index.html">HOME</a></li>
+                    <li><a href="#">PERSONAL</a></li>
+                    <li><a href="#">BUSINESS</a></li>
+                    <li><a href="#">PRIVATE</a></li>
+                </ul>
+
+                <div class="header-2">
+                    <div class="lan "><a href="#" class="active eng" id="dropdownbtn">English</a>
+                        <ul class="dropdown" id="dropdowncontent">
+                            <li>Select Language</li>
+                            <li>Arabic</li>
+                            <li>Chinese(Simplified)</li>
+                            <li>Chinese(Traditional)</li>
+                            <li>Dutch</li>
+                            <li>English</li>
+                            <li>French</li>
+                            <li>German</li>
+                            <li>Hausa</li>
+                            <li>Igbo</li>
+                            <li>Italian</li>
+                            <li>Portuguese</li>
+                            <li>Rusian</li>
+                            <li>Spanish</li>
+                            <li>Yoruba</li>
+                        </ul>
+                    </div>
+                    <div class="lan"><a href="#">SUSTAINABILITY</a></div>
+                    <div class="lan"><a href="#">CONTACT</a></div>
+                    <div class="lan nig"><a href="" class="aimg"><img src="multimedia/home/1f1f3-1f1ec.svg"
+                                alt="">NIGERIA</a></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- --SECOND HEADER-- -->
+
+        <div class="second-header">
+            <div class="head-1">
+                <a class="menu-drop" onclick="toggleDropdown(this)">
+                    <div class="first-img">
+                    </div>
+                </a>
+                <ul class="head2-list" id="myDropdown">
+                    <input type="search" placeholder="search bank services, news and more">
+                    <li>
+                        <div class="aa drp"  onclick="dropDown(this)"><a href="./html/about.html">About us </a><div class="iconbtn"></div>
+                        </div>
+                        <ul class="dropdownn2" id="dropDownn">
+                            <li>Our History</li>
+                            <li>Leadership</li>
+                            <li>Our Brand</li>
+                            <li>Brand Kit</li>
+                            <li>Our Businesses</li>
+                            <li style=" width: 100%;">
+                                <div style="display: inline-flex; align-items: center; gap: 5px;">Investor Relations<i
+                                        class="bi bi-arrow-up-right" style="color:  white;"></i></div>
+                            </li>
+                        </ul>
+
+                    </li>
+                    <li>
+                        <div class="aa drp"  onclick="dropDown3(this)"><a href="./html/media.html">Media</a><div class="iconbtn"></div>
+                        </div>
+                        <ul class="dropdownn3" id="dropDownn3">
+                            <li>Press Release</li>
+                            <li>Podcast</li>
+                            <li>News and features</li>
+                            <li>Resources</li>
+                            <li>Awards</li>
+                            <li>Publications</li>
+                            <li>Social</li>
+                            <li>Blog</li>
+                        </ul>
+                    </li>
+                    <li>
+                         <div class="aa drp"  onclick="dropDown4(this)"><a href="">Careers </a><div class="iconbtn"></div>
+                        </div>
+                        <ul class="dropdownn4" id="dropDownn4">
+                            <li>Why First Bank?</li>
+                            <li>EPIC - Our People</li>
+                            <li>Jobs</li>
+                        </ul>
+                    </li>
+                    <li>
+                         <div class="aa drp"  onclick="dropDown5(this)"><a href="">Sustainability </a><div class="iconbtn"></div>
+                        </div>
+                        <ul class="dropdownn5" id="dropDownn5">
+                            <li>Education, Health and Welfare</li>
+                            <li>Finaicial Inclusion</li>
+                            <li>Kindess Pledge</li>
+                            <li>Responsive Lending and Procurement</li>
+                            <li>CR&S week</li>
+                            <li>Contact CR&S</li>
+                            <li>Communications Policy</li>
+                        </ul>
+                    </li>
+                    <li>
+                         <div class="aa drp"  onclick="dropDown6(this)"><a href="./html/event.html">Event </a><div class="iconbtn"></div>
+                        </div>
+                        <ul class="dropdownn6" id="dropDownn6">
+                            <li>Sponsorship</li>
+                            <li>Partnership / colaborations</li>
+                            <li>Events</li>
+                        </ul>
+                    </li>
+                    <li>
+                         <div class="aa drp"  onclick="dropDown7(this)"><a href="./html/legal.html">Legal </a><div class="iconbtn"></div>
+                        </div>
+                        <ul class="dropdownn7" id="dropDownn7">
+                            <li>Terms of Use</li>
+                            <li>Privacy Policy</li>
+                            <li>Cookies Policy</li>
+                            <li>Third-Party Code of Condut</li>
+                            <li>More Policies</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="aa"><a href="#">130 Aniversary</a></div>
+                    </li>
+                </ul>
+
+                <img class="since-1894" src="multimedia/home/First-Bank.svg" alt="">
+                <ul class="head1-list">
+                    <li><a href="./html/about.html" class="dropdownbtn">About us<i class="bi bi-chevron-down"></i>
+                            <ul class="dropdownn">
+                                <li>Our History</li>
+                                <li>Leadership</li>
+                                <li>Our Brand</li>
+                                <li>Brand Kit</li>
+                                <li>Our Businesses</li>
+                                <li style="display: inline-flex; align-items: center;">Investor Relations <i
+                                        class="bi bi-arrow-up-right" style="color:  rgb(0, 48, 80);"></i></li>
+                            </ul>
+                        </a>
+                    </li>
+                    <li><a href="./html/media.html" class="dropdownbtn">Media<i class="bi bi-chevron-down"></i>
+                            <ul class="dropdownn">
+                                <li>Press Release</li>
+                                <li>Podcast</li>
+                                <li>News and features</li>
+                                <li>Resources</li>
+                                <li>Awards</li>
+                                <li>Publications</li>
+                                <li>Social</li>
+                                <li>Blog</li>
+                            </ul>
+                        </a></li>
+                    <li><a href="#" class="dropdownbtn">Careers<i class="bi bi-chevron-down"></i>
+                            <ul class="dropdownn">
+                                <li>Why First Bank?</li>
+                                <li>EPIC - Our People</li>
+                                <li>Jobs</li>
+                            </ul>
+                        </a></li>
+                    <li><a href="#" class="dropdownbtn">Sustainability<i class="bi bi-chevron-down"></i>
+                            <ul class="dropdownn">
+                                <li>Education, Health and Welfare</li>
+                                <li>Finaicial Inclusion</li>
+                                <li>Kindess Pledge</li>
+                                <li>Responsive Lending and Procurement</li>
+                                <li>CR&S week</li>
+                                <li>Contact CR&S</li>
+                                <li>Communications Policy</li>
+                            </ul>
+                        </a></li>
+                    <li><a href="./html/event.html" class="dropdownbtn">Event<i class="bi bi-chevron-down"></i>
+                            <ul class="dropdownn">
+                                <li>Sponsorship</li>
+                                <li>Partnership / colaborations</li>
+                                <li>Events</li>
+                            </ul>
+                        </a></li>
+                    <li><a href="./html/legal.html" class="dropdownbtn">Legal<i class="bi bi-chevron-down"></i>
+                            <ul class="dropdownn">
+                                <li>Terms of Use</li>
+                                <li>Privacy Policy</li>
+                                <li>Cookies Policy</li>
+                                <li>Third-Party Code of Condut</li>
+                                <li>More Policies</li>
+                            </ul>
+                        </a></li>
+                    <li><a href="#" class="dropdownbtn">130 Aniversary</a></li>
+                </ul>
+            </div>
+            <div class="head2-con">
+                <div class="head-2">
+                    <img src="multimedia/home/search_fbn-1.svg" alt="">
+                    <a href="" class="online">Online Banking</a>
+                    <a href="" class="login">Login</a>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- --slider-- -->
+    <div class="hero-con">
+        <div class="hero">
+            <div class="slide active" style="background-image: url(/multimedia/home/head-office.jpg);"></div>
+            <div class="slide"
+                style="background-image: url(multimedia/home/fbn-corporateinformation8-e1612351621536.jpg);"></div>
+            <div class="slide"
+                style="background-image: url(multimedia/home/fbn-corporateinformation40-17.08.42-1-e1607446866468.jpg);">
+            </div>
+
+            <div class="hero-content one">
+                <h1>About firstBank</h1>
+                <p>West Africa's premier Bank Since 1894.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="hero-content two">
+                <h1>Our Brand</h1>
+                <p>A national icon and international player</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="hero-content three">
+                <h1>careers</h1>
+                <p>A dynamic workforce with a 'people first' culture.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+        <div class="hero-4">
+            <h4>INTERNET BANKING LOGIN</h4>
+            <a href="" class="per"> Personal (Individual/Corporate)</a>
+            <a href="" class="first">FirstDirect2.0</a>
+        </div>
+    </div>
+    <div class="icons-contain">
+        <div class="icons">
+            <div class="icon"><img src="multimedia/home/Home - First Bank of Nigeria/download (5).svg" alt=""></i>
+                <div class="itxt">Open Account</div>
+            </div>
+            <div class="icon"><img src="multimedia/home/Home - First Bank of Nigeria/download (2).svg" alt=""></i>
+                <div class="itxt">Agent Banking</div>
+            </div>
+            <div class="icon"><img src="multimedia/home/Home - First Bank of Nigeria/download (4).svg" alt=""></i>
+                <div class="itxt">Diaspora Banking</div>
+            </div>
+            <div class="icon"><img src="multimedia/home/Home - First Bank of Nigeria/download (1).svg" alt="">
+                <div class="itxt">SME Banking</div>
+            </div>
+            <div class="icon"><img src="multimedia/home/Home - First Bank of Nigeria/download (3).svg" alt="">
+                <div class="itxt">Contact Us</div>
+            </div>
+            <div class="icon"><img src="multimedia/home/Home - First Bank of Nigeria/download (4).svg" alt="">
+                <div class="itxt">Sustainability</div>
+            </div>
+            <div class="icon"><img src="multimedia/home/Home - First Bank of Nigeria/download (1).svg" alt="">
+                <div class="itxt">Annual Report</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-container">
+        <div class="text">
+            <h3>Over 13 Decades of Leading Banking Services</h3>
+            <p>First Bank of Nigeria Limited (FirstBank) is the premier bank in West Africa with its impact woven into
+                the fabric of society. The Bank has sustained its development-oriented services for over 13 decades as
+                the region's foremost financial inclusion services provider. FirstBank offers a comprehensive range of
+                retail and corporate financial services through more than 820 business outlets and over 280,000 Agent
+                Banking locations to over 43 million customer accounts (including digital wallets).</p>
+            <p>As a national icon and an international player, FirstBank is one of the most enduring financial services
+                brands in Africa with international footprints extending through its subsidiaries; FirstBank (UK)
+                Limited in London and Paris; FirstBank in the Democratic Republic of Congo, Ghana, Guinea, Sierra-Leone
+                and The Gambia; FBN Bank in Senegal; as well as a FirstBank Representative Office in Beijing, China.
+                FirstBank has been nimble at promoting a digital economy in Africa and has issued about 13 million
+                cards, becoming the first bank in Nigeria to achieve this milestone.
+            </p>
+            <p>FirstBank's financial inclusion and cashless transaction drive have resulted in over 15 million users on
+                its USSD banking service through the nationally acclaimed *894# banking service and over 7.8 million
+                users on its FirstMobile App, which was awarded the African Innovative Banking Product of the Year 2021
+                by African Leadership Magazine Awards.
+            </p>
+            <p>Since its establishment in 1894, FirstBank has consistently built relationships with customers, focusing
+                on the fundamentals of good corporate governance, strong liquidity, optimised risk management and
+                leadership. Over the years, the Bank has led the financing of private investment in infrastructure
+                development in the Nigerian economy by playing key roles in the Federal Government's privatisation and
+                commercialisation schemes. With its global reach, FirstBank, one of Africa's most sustainable financial
+                services brands, provides prospective investors wishing to explore the vast business opportunities that
+                are available in Africa, an internationally competitive world-class brand and a credible financial
+                partner.</p>
+        </div>
+    </div>
+
+    <div class="section1">
+        <div class="section1-con">
+            <div class="anim">
+                <div class="anim-con">
+                    <div class="anim-text">
+                        <h3>First Bank at 130</h3>
+                        <p>We are woven into the fabric of society while aiding nation-building, supporting financial
+                            and
+                            commercial developments in Nigeria and Africa since 1894.</p>
+                        <a href="">Learn More</a>
+                    </div>
+                    <img src="multimedia/home/FBN-@130-Logo.png" alt="">
+                </div>
+            </div>
+            <div class="anim-text2">
+                <div>
+                    <h3>First Bank at 130</h3>
+                    <p>We are woven into the fabric of society while aiding nation-building, supporting financial and
+                        commercial developments in Nigeria and Africa since 1894.</p>
+                    <a href="">Learn More</a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="section2">
+        <div class="section2-con">
+            <div class="history">
+                <div class="section2-img">
+                    <img src="multimedia/home/FIRST.jpg" alt="">
+                </div>
+
+                <div class="section2-txt">
+                    <h4>Our History</h4>
+                    <p>Established in 1894, FirstBank was founded by Sir Alfred Jones, a shipping magnate from
+                        Liverpool, England. With its head office originally in Liverpool, the Bank commenced
+                        business on a modest scale in Lagos, Nigeria under the name, Bank of British West Africa
+                        (BBWA).
+                    </p>
+                    <a href="">Learn More</a>
+                </div>
+            </div>
+            <div class="leadership">
+                <div class="section2-img"><img src="multimedia/home/fbn-corporateinformation43.jpg" alt=""></div>
+
+                <div class="section2-txt">
+                    <h4>Our leadership</h4>
+                    <p>Our forward-looking leadership team is made up of dedicated, focused and experienced
+                        executives. Working with each other and bringing their wealth of knowledge and experience
+                        together with other employees to make a difference for all our stakeholders.</p>
+                    <a href="">Learn More</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="section2-neigbour">
+            <h3>Networked across Africa, Europe and Asia</h3>
+            <p>As a national icon and an international player, FirstBank is one of the most enduring financial services
+                brands in Africa with international footprints extending through its subsidiaries, FirstBank UK Limited
+                in London and Paris, FirstBank in the Democratic Republic of Congo, Ghana, The Gambia, Guinea,
+                Sierra-Leone; FBN Bank in Senegal, as well as a Representative Office in Beijing.</p>
+        </div>
+    </div>
+
+    <div class="section3">
+        <div class="section3-con">
+            <div class="anim2">
+                <div class="anim2-con">
+                    <div class="anim2-text">
+                        <h3>Our Purpose and Promise</h3>
+                        <p>Our brand purpose is to always put customers, partners and stakeholders at the heart of our
+                            business, even as we standardise customer experience and excellence in financial solutions
+                            across sub-Saharan Africa, in consonance with our brand vision “To be the partner of choice
+                            in building your future”.</p>
+                        <div class="alink">
+                            <a href="">Learn More</a>
+                            <i class="bi bi-plus"></i>
+                        </div>
+                    </div>
+                    <div class="txt1">
+                        <p>Our brand promise is to always deliver the ultimate “gold standard” of value and excellence.
+                            This commitment is anchored on our inherent values of passion, partnership and people, to
+                            position YouFirst in every respect.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section4">
+        <div class="section4-con">
+            <div class="section4-txt">
+                <h3>Corporate Governance</h3>
+                <p>We can only achieve our strategic objectives by building a sound reputation founded on the highest
+                    standards of responsible behaviour. Over the years, our Group has been recognised for its strong
+                    commitment to corporate values and governance.</p>
+                <p>With recent events surrounding the development of corporate governance, it is evident that across the
+                    globe, investors are increasingly appreciating the impact good corporate governance practices are
+                    having on their investments.</p>
+                <a href="">Read the Report</a>
+            </div>
+            <div class="section4-img">
+                <figure class="card"> <img src="multimedia/home/fbn-holdings-33.jpg">
+                    <figcaption>Investor Relations</figcaption>
+                </figure>
+                <figure class="card"> <img src="multimedia/home/fbn-holdings-37.jpg">
+                    <figcaption>Press and Media</figcaption>
+                </figure>
+                <figure class="card"> <img src="multimedia/home/fbn-corporateinformation15.jpg">
+                    <figcaption>Our subsidiaries</figcaption>
+                </figure>
+                <figure class="card"> <img src="multimedia/home/fbn-holdings-14.jpg">
+                    <figcaption>Citizens</figcaption>
+                </figure>
+            </div>
+        </div>
+
+    </div>
+    <div class="section5">
+        <div class="section5-con">
+            <div class="anim3">
+                <div class="anim3-con">
+                    <div class="anim3-text">
+                        <h3>Our Vision</h3>
+                        <p>To be Afica's Bank of first choice</p>
+                        <h3>Our Mission</h3>
+                        <p>To remain true to our name by providing the best finaicial service possible</p>
+                    </div>
+                    <div class="img">
+                        <img src="multimedia/home/fbn-corporateinformation25-1024x1024.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer"
+        style="background-image: url(multimedia/home/Footer.svg); background-repeat: no-repeat; background-size: cover; background-position: center;">
+        <div class="section6">
+            <div class="section6-con">
+                <div class="section6-con1">
+                    <div class="section6-content1">
+                        <img src="multimedia/home/First-Bank-Logo_Symbol.svg" alt="">
+                        <a href="">English</a>
+                    </div>
+                    <div class="section6-content2">
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-twitter-x"></i>
+                        <i class="bi bi-instagram"></i>
+                        <i class="bi bi-youtube"></i>
+                        <i class="bi bi-linkedin"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="section6-con2">
+                <div>
+                    <h3>BANKING</h3>
+                    <p>Corporate Information</p>
+                    <p>Personal Banking</p>
+                    <p>Business Banking</p>
+                    <p>Private Banking</p>
+                    <p>Loan Calculator</p>
+                    <p>Vendor Portal</p>
+                    <p>Download Forms</p>
+                    <p>USSD</p>
+                    <p>Update BVN/NIN</p>
+                </div>
+                <div>
+                    <h3>SECURITY</h3>
+                    <p>BVN</p>
+                    <p>Anti-Fraud</p>
+                    <p>Security Tips</p>
+                    <p>Secure Code</p>
+                </div>
+                <div>
+                    <h3>CONTACT US</h3>
+                    <p>Feedback and Complaints</p>
+                    <p>Whistleblowing</p>
+                    <p>Find a Branch</p>
+                    <p>Contact Form</p>
+                    <p>Find an Agent</p>
+                    <p>Agent Network</p>
+                </div>
+                <div>
+                    <h3>LEGAL</h3>
+                    <p>Sitemap</p>
+                    <p>Terms of Use </p>
+                    <p>Privacy Policy</p>
+                    <p>Cookies Policy</p>
+                    <p>Communications Policy</p>
+                    <p>Information and Cybersecurity Policy</p>
+                    <p>Delete FirstMobile Profile</p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="foot">
+                <p>© 2026. First Bank of Nigeria Ltd. A FirstHoldCo Company. Licensed by the Central Bank of Nigeria</p>
+                <a href="#" class="top">Back to top</a>
+            </div>
+        </footer>
+        <div class="asst">
+            <img src="multimedia/home/Home - First Bank of Nigeria/fibani-avartar-section1.webp" alt="">
+            <div class="text">
+                <h3>Fibani</h3>
+                <p>Your Virtual Assitant</p>
+            </div>
+        </div>
+
+        <div class="share">
+            <div class="share-con">
+                <a href="" class="first">SHARE</a>
+                <ul class="second">
+                    <li><i class="bi bi-facebook"></i></li>
+                    <li><i class="bi bi-twitter-x"></i></li>
+                    <li><i class="bi bi-linkedin"></i></li>
+                    <li><i class="bi bi-whatsapp"></i></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="./Js/index.js"></script>
+</body>
+
+</html>
