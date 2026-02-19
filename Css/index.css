@@ -645,7 +645,7 @@ body {
     background-color: rgba(0, 0, 0, 0.323);
     border-radius: 5px;
     backdrop-filter: blur(2px);
-    -webkit-backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(2px);
     position: absolute;
     bottom: 50px;
     left: 0;
@@ -780,7 +780,26 @@ body {
     .slide.active {
         animation: zoom 10s ease-in-out;
     }
-
+    .hero{
+        height: 40vh;
+    }
+   .hero-content{
+    bottom: 0;
+    height: 30vh;
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+   }
+   .hero-content h1{
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+   }
+   .hero-content p{
+    font-size: 1rem;
+    margin: 15px 0;
+   }
+   .hero-content a{
+font-size: 0.7rem;
+   }
     @keyframes zoom {
         from {
             opacity: 1;
