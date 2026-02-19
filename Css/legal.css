@@ -1129,7 +1129,6 @@ footer p {
     .foot {
         gap: 10px;
         flex-direction: column;
-        margin-bottom: 50px;
     }
 
 }
@@ -1225,8 +1224,5 @@ footer p {
 @media(max-width:753px) {
     .share {
         display: none;
-    }
-    .asst{
-        bottom: 100px;
     }
 }
