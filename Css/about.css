@@ -1107,7 +1107,7 @@ footer {
     justify-content: space-between;
 }
 
-.foot .top {
+footer .foot .top {
     color: rgba(255, 255, 255, );
     font-size: 0.7rem;
     text-decoration: none;
