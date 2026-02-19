@@ -790,6 +790,7 @@ body {
     -webkit-backdrop-filter: blur(1px);
    }
    .hero-content h1{
+    width: 100%;
     font-size: 1.8rem;
     margin-bottom: 10px;
    }
