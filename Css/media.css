@@ -218,9 +218,11 @@ body {
     padding: 20px;
     background-color: white;
 }
-.activeme{
+
+.activeme {
     border-bottom: 1px solid rgb(240, 189, 45);
 }
+
 .since-1894 {
     width: 150px;
 }
@@ -379,6 +381,7 @@ body {
     font-family: "bootstrap-icons";
     color: rgb(240, 189, 45);
 }
+
 .dropdownn3 {
     color: rgba(255, 255, 255, 0.755);
     font-size: 0.8rem;
@@ -411,6 +414,7 @@ body {
     font-family: "bootstrap-icons";
     color: rgb(240, 189, 45);
 }
+
 .dropdownn4 {
     color: rgba(255, 255, 255, 0.755);
     font-size: 0.8rem;
@@ -443,6 +447,7 @@ body {
     font-family: "bootstrap-icons";
     color: rgb(240, 189, 45);
 }
+
 .dropdownn5 {
     color: rgba(255, 255, 255, 0.755);
     font-size: 0.8rem;
@@ -475,6 +480,7 @@ body {
     font-family: "bootstrap-icons";
     color: rgb(240, 189, 45);
 }
+
 .dropdownn6 {
     color: rgba(255, 255, 255, 0.755);
     font-size: 0.8rem;
@@ -507,6 +513,7 @@ body {
     font-family: "bootstrap-icons";
     color: rgb(240, 189, 45);
 }
+
 .dropdownn7 {
     color: rgba(255, 255, 255, 0.755);
     font-size: 0.8rem;
@@ -686,7 +693,7 @@ body {
         font-size: 0.8rem;
         width: 50%;
         margin: 50px auto;
-        
+
     }
 }
 
@@ -1164,5 +1171,10 @@ footer p {
 @media(max-width:753px) {
     .share {
         display: none;
+    }
+
+    .asst {
+        bottom: 20px;
+        right: 20px;
     }
 }

@@ -1225,4 +1225,8 @@ footer p {
     .share {
         display: none;
     }
+     .asst {
+        bottom: 20px;
+        right: 20px;
+    }
 }
